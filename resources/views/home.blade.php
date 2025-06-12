@@ -28,6 +28,8 @@
                         <hr class="my-4">
                         <p class="text-muted">Explore our website to learn more about our services and history.</p>
                         <a class="btn btn-primary btn-lg" href="{{ route('contact') }}" role="button">Contact Us</a>
+
+                        {{$informazioni}}
                     </div>
                 </div>
             </div>
